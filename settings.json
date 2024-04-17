@@ -1,0 +1,14 @@
+{
+    "work_path": "",
+    "folder_name": "Download",
+    "user_agent": "",
+    "cookie": "",
+    "proxy": null,
+    "timeout": 10,
+    "chunk": 1048576,
+    "max_retry": 5,
+    "record_data": false,
+    "image_format": "PNG",
+    "folder_mode": false,
+    "language": "zh-CN"
+}
