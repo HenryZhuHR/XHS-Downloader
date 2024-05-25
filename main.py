@@ -11,7 +11,7 @@ async def example():
     demo_link = "https://www.xiaohongshu.com/explore/xxxxxxxxxx"
     multiple_links = f"{demo_link} {demo_link} {demo_link}"
     # 实例对象
-    work_path = "D:\\"  # 作品数据/文件保存根路径，默认值：项目根路径
+    work_path = ""  # 作品数据/文件保存根路径，默认值：项目根路径
     folder_name = "Download"  # 作品文件储存文件夹名称（自动创建），默认值：Download
     user_agent = ""  # 请求头 User-Agent
     cookie = ""  # 小红书网页版 Cookie，无需登录

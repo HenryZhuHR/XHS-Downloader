@@ -4,6 +4,7 @@ from asyncio import QueueEmpty
 from asyncio import gather
 from asyncio import sleep
 from contextlib import suppress
+import os
 from re import compile
 
 from pyperclip import paste
@@ -59,6 +60,8 @@ class XHS:
             language="zh-CN",
             language_object: Chinese | English = None,
     ):
+        work_path=os.path.expandvars(os.path.expanduser(work_path))
+        folder_name=os.path.expandvars(os.path.expanduser(folder_name))
         self.prompt = language_object or LANGUAGE.get(language, Chinese)
         self.manager = Manager(
             ROOT,
